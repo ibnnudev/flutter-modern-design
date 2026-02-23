@@ -5,6 +5,9 @@ void main() {
 }
 
 class SevenDays extends StatelessWidget {
+  const SevenDays({super.key});
+
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(),
