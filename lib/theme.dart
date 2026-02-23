@@ -25,7 +25,7 @@ TextStyle regular12_5 = const TextStyle(
 TextStyle regular14 = regular12_5.copyWith(fontSize: 14);
 
 TextStyle semibold12_5 = regular12_5.copyWith(fontWeight: FontWeight.w600);
-TextStyle semibold14 = regular14.copyWith(fontSize: 14, letterSpacing: 0.1);
+TextStyle semibold14 = regular14.copyWith(fontSize: 14, letterSpacing: 0.1, fontWeight: FontWeight.w600);
 
 TextStyle bold16 = regular14.copyWith(
   fontSize: 16,

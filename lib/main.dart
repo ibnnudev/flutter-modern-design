@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:moderndesign/pages/home.dart';
 
 void main() {
-  runApp(SevenDays());
+  runApp(const MainPage());
 }
 
-class SevenDays extends StatelessWidget {
-  const SevenDays({super.key});
+class MainPage extends StatelessWidget {
+  const MainPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(),
+      home: HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
