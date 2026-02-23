@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:moderndesign/home/components/goclub.dart';
 import 'package:moderndesign/home/components/gopay.dart';
 import 'package:moderndesign/home/components/search-profile.dart';
 import 'package:moderndesign/home/components/service.dart';
@@ -63,12 +64,10 @@ class HomePage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            // --- Search & Profile ---
             SearchProfileComponent(),
-            // --- Gopay ---
             GopayComponent(),
-            // --- Layanan ---
-            ServiceComponent() 
+            ServiceComponent(),
+            GoClubComponent()
           ],
         ),
       ),
