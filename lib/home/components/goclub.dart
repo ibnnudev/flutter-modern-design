@@ -90,7 +90,7 @@ class GoClubComponent extends StatelessWidget {
                     SizedBox(width: 24),
                     SvgPicture.asset(
                       'assets/icons/left.svg',
-                      color: dark1,
+                      colorFilter: ColorFilter.mode(dark1, BlendMode.srcIn),
                       width: 24,
                       height: 24,
                     ),

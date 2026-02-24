@@ -65,7 +65,7 @@ class SearchProfileComponent extends StatelessWidget {
                     clipBehavior: Clip.hardEdge,
                     child: SvgPicture.asset(
                       'assets/icons/goclub.svg',
-                      color: blue2,
+                      colorFilter: ColorFilter.mode(blue2, BlendMode.srcIn),
                     ),
                   ),
                 ),

@@ -54,7 +54,7 @@ class QuickAccessComponent extends StatelessWidget {
                         style: regular14.copyWith(color: dark2),
                       ),
                       const Spacer(),
-                      SvgPicture.asset('assets/icons/left.svg', color: dark1),
+                      SvgPicture.asset('assets/icons/left.svg', colorFilter: ColorFilter.mode(dark1, BlendMode.srcIn)),
                     ],
                   ),
                 );

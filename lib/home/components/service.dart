@@ -24,7 +24,7 @@ class ServiceComponent extends StatelessWidget {
                 borderRadius: BorderRadius.circular(100)
               ),
               child: SvgPicture.asset('assets/icons/${icon.icon}.svg',
-              color: ['goclub', 'other'].contains(icon.icon) ? icon.color : null,
+              colorFilter: ['goclub', 'other'].contains(icon.icon) ? ColorFilter.mode(icon.color ?? Colors.black, BlendMode.srcIn) : null,
               ),
             ),
             SizedBox(height: 9),
